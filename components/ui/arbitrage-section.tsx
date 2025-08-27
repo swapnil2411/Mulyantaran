@@ -72,7 +72,7 @@ export function ArbitrageSection() {
           {/* Left Content */}
           <div className={`space-y-8 ${isVisible ? "animate-fade-in-up" : "opacity-0"}`}>
             <div className="space-y-6">
-              <h1 className="text-5xl lg:text-7xl font-bold text-white leading-tight">
+              <h1 className="text-5xl lg:text-7xl font-mulyantaran-bold text-mulyantaran-white leading-tight">
                 ARBITRAGE.
                 <br />
                 AMPLIFY.
@@ -88,25 +88,25 @@ export function ArbitrageSection() {
             {/* Countdown Timer */}
             <div className="flex gap-6">
               <div className="text-center">
-                <div className="text-4xl lg:text-5xl font-bold text-mulyantaran-text-gray mb-1">
+                <div className="text-4xl lg:text-5xl font-mulyantaran-bold text-mulyantaran-text-gray mb-1">
                   {timeLeft.days.toString().padStart(2, "0")}
                 </div>
                 <div className="text-sm text-mulyantaran-text-gray uppercase tracking-wider">DAYS</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl lg:text-5xl font-bold text-mulyantaran-text-gray mb-1">
+                <div className="text-4xl lg:text-5xl font-mulyantaran-bold text-mulyantaran-text-gray mb-1">
                   {timeLeft.hours.toString().padStart(2, "0")}
                 </div>
                 <div className="text-sm text-mulyantaran-text-gray uppercase tracking-wider">HOURS</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl lg:text-5xl font-bold text-mulyantaran-text-gray mb-1">
+                <div className="text-4xl lg:text-5xl font-mulyantaran-bold text-mulyantaran-text-gray mb-1">
                   {timeLeft.minutes.toString().padStart(2, "0")}
                 </div>
                 <div className="text-sm text-mulyantaran-text-gray uppercase tracking-wider">MINUTES</div>
               </div>
               <div className="text-center">
-                <div className="text-4xl lg:text-5xl font-bold text-mulyantaran-text-gray mb-1">
+                <div className="text-4xl lg:text-5xl font-mulyantaran-bold text-mulyantaran-text-gray mb-1">
                   {timeLeft.seconds.toString().padStart(2, "0")}
                 </div>
                 <div className="text-sm text-mulyantaran-text-gray uppercase tracking-wider">SECONDS</div>
@@ -159,14 +159,14 @@ export function ArbitrageSection() {
               {features.map((feature, index) => (
                 <div key={index} className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-mulyantaran-gold rounded-full" />
-                  <span className="text-sm text-white font-medium whitespace-nowrap">{feature}</span>
+                  <span className="text-sm text-mulyantaran-white font-mulyantaran-medium whitespace-nowrap">{feature}</span>
                 </div>
               ))}
             </div>
 
             {/* Action Buttons */}
             <div className="absolute bottom-0 right-0 flex gap-3">
-              <Button className="bg-mulyantaran-gold hover:bg-mulyantaran-gold-dark text-black font-semibold px-8 py-3 rounded-full">
+              <Button className="bg-mulyantaran-gold hover:bg-mulyantaran-gold-dark text-black font-mulyantaran-semibold px-8 py-3 rounded-full">
                 Join Presale
               </Button>
               <Button

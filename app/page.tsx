@@ -3,7 +3,7 @@ import { Navigation } from "@/components/global/navigation"
 import { Footer } from "@/components/global/footer"
 import { Loader } from "@/components/global/loader"
 
-import { LogoSlider, CoreAdvantageSection, CryptoCardSection, FeatureSection, HeroSection, PerformanceAnalyticSection, StatisticsSection, SubscriptionPlanSection, TestimonialsSection, CTASection, WhyChooseSection } from "@/sections";
+import { LogoSlider, CoreAdvantageSection, CryptoCardSection,  FeatureSection, HeroSection, PerformanceAnalyticSection, StatisticsSection, SubscriptionPlanSection, TestimonialsSection, FaqSection, CTASection, WhyChooseSection } from "@/sections";
 
 export default function HomePage() {
   return (
@@ -19,6 +19,7 @@ export default function HomePage() {
       <CryptoCardSection/>
       <SubscriptionPlanSection/>
       <TestimonialsSection/>
+      <FaqSection/>
       <CTASection/>
       <Footer />
     </main>

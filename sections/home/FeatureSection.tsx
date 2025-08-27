@@ -43,7 +43,7 @@ export default function FeatureSection() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-3xl md:text-5xl font-semibold text-foreground mb-4"
+          className="text-3xl md:text-5xl font-mulyantaran-semibold text-foreground mb-4"
         >
           Why Choose Mulyantaran?
         </motion.h2>
@@ -163,10 +163,10 @@ function FeatureCard({ feature, delay }: { feature: FeatureItem; delay: number }
 
 
         <div className="relative z-30 pt-28">
-          <h3 className="text-[26px] leading-tight font-semibold text-white mb-3">
+          <h3 className="text-[26px] leading-tight font-mulyantaran-semibold text-mulyantaran-white mb-3">
             {feature.title}
           </h3>
-          <p className="text-white/70 text-[14px] leading-relaxed mb-8">
+          <p className="text-mulyantaran-white/70 text-[14px] leading-relaxed mb-8">
             {feature.description}
           </p>
         </div>

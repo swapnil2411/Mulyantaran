@@ -25,16 +25,16 @@ const traders = [
 
 const TestimonialSection = () => {
   return (
-    <section className="bg-black text-white py-20 px-6 md:px-12">
+    <section className="bg-black text-mulyantaran-white py-20 px-6 md:px-12">
       {/* Heading */}
       <div className="max-w-4xl mx-auto text-center mb-14">
-        <span className="inline-block px-4 py-1 rounded-full bg-yellow-500/10 text-yellow-400 text-sm font-semibold mb-4">
+        <span className="inline-block px-4 py-1 rounded-full bg-yellow-500/10 text-yellow-400 text-sm font-mulyantaran-semibold mb-4">
           ✨ Success Stories
         </span>
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">
+        <h2 className="text-3xl md:text-4xl font-mulyantaran-bold mb-4">
           Trusted by Leading Traders
         </h2>
-        <p className="text-gray-400 text-lg">
+        <p className="text-[#B3B3B3] text-lg">
           See how professional traders and institutions are achieving exceptional results with our platform.
         </p>
       </div>
@@ -56,8 +56,8 @@ const TestimonialSection = () => {
             </div>
 
             {/* Name & Role */}
-            <h3 className="text-xl font-semibold">{trader.name}</h3>
-            <p className="text-gray-400 text-sm">{trader.role}</p>
+            <h3 className="text-xl font-mulyantaran-semibold">{trader.name}</h3>
+            <p className="text-[#B3B3B3] text-sm">{trader.role}</p>
 
             {/* Badges */}
             <div className="flex gap-2 mt-3">

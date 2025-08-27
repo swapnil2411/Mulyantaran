@@ -46,13 +46,13 @@ export default function Index() {
         <div className="text-center mb-4 lg:mb-8">
           {/* Main heading with gradient text */}
           <div className="space-y-2 mb-6 lg:mb-10">
-            <h1 className="font-mulyantaran-thin text-white text-6xl sm:text-7xl md:text-8xl lg:text-[160px] xl:text-[160px] font-light leading-[0.8] tracking-[-0.03em]">
+            <h1 className="font-mulyantaran-thin text-mulyantaran-white text-6xl sm:text-7xl md:text-8xl lg:text-[160px] xl:text-[160px] font-light leading-[0.8] tracking-[-0.03em]">
               Ready to
             </h1>
-            <h1 className="font-mulyantaran-semibold text-6xl sm:text-7xl md:text-8xl lg:text-[160px] xl:text-[160px] font-bold leading-[0.8] tracking-[-0.03em] text-white">
+            <h1 className="font-mulyantaran-semibold text-6xl sm:text-7xl md:text-8xl lg:text-[160px] xl:text-[160px] font-mulyantaran-bold leading-[0.8] tracking-[-0.03em] text-mulyantaran-white">
               scale your
             </h1>
-            <h1 className="font-mulyantaran-thin text-white text-6xl sm:text-7xl md:text-8xl lg:text-[160px] xl:text-[160px] font-light leading-[0.8] tracking-[-0.03em]">
+            <h1 className="font-mulyantaran-thin text-mulyantaran-white text-6xl sm:text-7xl md:text-8xl lg:text-[160px] xl:text-[160px] font-light leading-[0.8] tracking-[-0.03em]">
               Incomes?
             </h1>
           </div>
@@ -81,8 +81,8 @@ export default function Index() {
             >
               <button
                 type="submit"
-                className="h-full cursor-pointer px-4 lg:px-8 font-outfit font-bold text-sm lg:text-xl 
-             text-white hover:shadow-lg transition-all duration-200
+                className="h-full cursor-pointer px-4 lg:px-8 font-outfit font-mulyantaran-bold text-sm lg:text-xl 
+             text-mulyantaran-white hover:shadow-lg transition-all duration-200
              rounded-2xl lg:rounded-[16px] focus:outline-none
             "
                 style={{

@@ -3,7 +3,7 @@ import React from "react";
 
 const InfoCardSection = () => {
   return (
-    <section className="flex flex-wrap  justify-center items-stretch text-white gap-6 w-full pt-16">
+    <section className="flex flex-wrap  justify-center items-stretch text-mulyantaran-white gap-6 w-full pt-16">
    {stats.map((card, idx) => (
         <div
           key={card.label}
@@ -13,7 +13,7 @@ const InfoCardSection = () => {
           }}
         >
           <div className="flex flex-col justify-center items-center w-full gap-6">
-            <p className="w-full text-amber-900 text-5xl sm:text-[80px] font-semibold text-center">
+            <p className="w-full text-amber-900 text-5xl sm:text-[80px] font-mulyantaran-semibold text-center">
               {card.value}
             </p>
             <p className="text-base font-light text-center">

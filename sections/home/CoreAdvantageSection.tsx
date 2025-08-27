@@ -69,7 +69,7 @@ const CoreAdvantageSection: React.FC = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative bg-[#0A0A0A] text-white py-20 overflow-hidden"
+      className="relative bg-[#0A0A0A] text-mulyantaran-white py-20 overflow-hidden"
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 items-center">
 
@@ -83,7 +83,7 @@ const CoreAdvantageSection: React.FC = () => {
             <FancyLabel text="ArbitraX" imageSrc="/icons/star.svg" />
           </div>
 
-          <h2 className="text-4xl md:text-5xl lg:text-[52px]  font-mulyantaran-light leading-tight text-white">
+          <h2 className="text-4xl md:text-5xl lg:text-[52px]  font-mulyantaran-light leading-tight text-mulyantaran-white">
             What Sets Us Apart
           </h2>
 
@@ -104,7 +104,7 @@ const CoreAdvantageSection: React.FC = () => {
               >
                 <div className="flex-shrink-0">{f.icon}</div>
                 <div>
-                  <h4 className="text-2xl  font-mulyantaran-thin mb-1 text-white">
+                  <h4 className="text-2xl  font-mulyantaran-thin mb-1 text-mulyantaran-white">
                     {f.title}
                   </h4>
                   <p className="text-[#B3B3B3] text-base font-mulyantaran-light ">

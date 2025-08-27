@@ -74,7 +74,7 @@ export function FancyLabel({ text, icon, imageSrc, className = "" }: LabelProps)
             </div>
           )}
           <span
-            className="font-semibold text-lg tracking-wide"
+            className="font-mulyantaran-semibold text-lg tracking-wide"
             style={{
               color: '#ffffff',
               textShadow: '0 1px 2px rgba(0, 0, 0, 0.5)'

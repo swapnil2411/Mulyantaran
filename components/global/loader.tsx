@@ -106,7 +106,7 @@ export function Loader() {
 
           <div
             ref={progressTextRef}
-            className="absolute text-white text-lg font-semibold"
+            className="absolute text-mulyantaran-white text-lg font-mulyantaran-semibold"
           >
             0%
           </div>

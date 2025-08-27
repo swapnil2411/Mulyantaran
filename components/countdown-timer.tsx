@@ -66,7 +66,7 @@ function FlipUnit({ label, value }: { label: string; value: number }) {
             animate={{ rotateX: 0, opacity: 1, y: 0 }}
             exit={{ rotateX: -90, opacity: 0, y: -30 }}
             transition={{ duration: 0.6, ease: [0.25, 0.8, 0.25, 1] }}
-            className="block text-4xl lg:text-6xl font-bold 
+            className="block text-4xl lg:text-6xl font-mulyantaran-bold 
                        bg-gradient-to-b from-white to-gray-400 
                        bg-clip-text text-transparent leading-none"
           >

@@ -61,7 +61,7 @@ export function HeroSection() {
                 </span>
                 <span className="text-[#c4a04d]">.</span>
                 <br />
-                <span className="text-white">AMPLIFY</span>
+                <span className="text-mulyantaran-white">AMPLIFY</span>
                 <span className="text-[#c4a04d]">.</span>
                 <br />
                 <span className="bg-gradient-to-b from-white to-black bg-clip-text text-transparent">

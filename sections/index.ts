@@ -12,6 +12,7 @@ import { LogoSlider } from "./home/LogoSliderSection";
 import { StatisticsSection } from "./home/StatisticsSection";
 import WhyChooseSection from "./home/WhyChooseSection";
 
+
 export {
   CoreAdvantageSection,
   CryptoCardSection,

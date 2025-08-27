@@ -51,7 +51,7 @@ export function StatisticsSection() {
             >
               {/* Gradient big number */}
               <div
-                className="text-4xl md:text-6xl leading-tight tracking-tight font-semibold 
+                className="text-4xl md:text-6xl leading-tight tracking-tight font-mulyantaran-semibold 
                 mb-3 bg-gradient-to-r from-[#EDD3A0] to-[#4C3F29] 
                 text-transparent bg-clip-text"
               >
@@ -59,7 +59,7 @@ export function StatisticsSection() {
               </div>
 
               {/* White heading */}
-              <div className="text-base md:text-lg font-medium text-white">
+              <div className="text-base md:text-lg font-mulyantaran-medium text-mulyantaran-white">
                 {stat.label}
               </div>
             </div>

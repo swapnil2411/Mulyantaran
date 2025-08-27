@@ -137,7 +137,7 @@ export function Navigation() {
                     <Link
                       key={item.name}
                       href={item.href}
-                      className="block text-mulyantaran-white hover:text-mulyantaran-gold text-xl font-mulyantaran-regular font-medium transition-colors duration-200"
+                      className="block text-mulyantaran-white hover:text-mulyantaran-gold text-xl font-mulyantaran-regular font-mulyantaran-medium transition-colors duration-200"
                       onClick={() => setIsOpen(false)}
                     >
                       {item.name}
